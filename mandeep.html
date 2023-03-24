@@ -1,12 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- SLICK MIN JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- SLICK THEME MIN JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/mandeep.css">
+    <!-- root -->
+    <link rel="stylesheet" href="./assets/css/root.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <!-- slider -->
+    <div class="bg_khakhi">
+        <div class="container pt-4 pb-4">
+            <div>
+                <div class="d-flex justify-content-end justify-content-between align-items-center">
+                    <p class="fw_600 fs_56 ff_inter ">Categories</p>
+                    <div class="d-flex justify-content-end ">
+                        <button class="back slider_btn d-none d-md-block" type="button">
+                            <span class="fs_2xl fw_700 slider_btn_arrow"><span class=""><svg width="8" height="14"
+                                        viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 13L1 7L7 1" stroke="#2D3134" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span>
+                            </span>
+                        </button>
+                        <button class="next slider_btn ms-3 d-none d-md-block " type="button">
+                            <span class="fs_2xl fw_700 "><span class="black"><svg width="8" height="14"
+                                        viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 13L7 7L1 1" stroke="#2D3134" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <p class="ff_inter fs_16 fw_400 min_w_370">Here are lots of interesting destinations to visit, but don’t
+                    be confused—they’re already grouped by
+                    category.</p>
+            </div>
+
+            <div class="slick_slider pt-5">
+                <div class=" text-center align-items-center d-flex flex-column">
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/beach.png" alt="beach">
+                    <p class="ff_inter fw_500 fs_26 ">Beach</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column">
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/desert.png" alt="Desert">
+                    <p class="ff_inter fw_500 fs_26">Desert</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column">
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/mountaion.png" alt="Mountain">
+                    <p class="ff_inter fw_500 fs_26">Mountain</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column">
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/temple.png" alt="Temple">
+                    <p class="ff_inter fw_500 fs_26">Temple</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column">
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/tower.png" alt="Tower">
+                    <p class="ff_inter fw_500 fs_26">Tower</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column">
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/pyramid.png" alt="Pyramid">
+                    <p class="ff_inter fw_500 fs_26">Pyramid</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column">
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/beach.png" alt="beach">
+                    <p class="ff_inter fw_500 fs_26">Beach</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column">
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/desert.png" alt="Desert">
+                    <p class="ff_inter fw_500 fs_26">Desert</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column">
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/mountaion.png" alt="Mountain">
+                    <p class="ff_inter fw_500 fs_26">Mountain</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column">
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/temple.png" alt="Temple">
+                    <p class="ff_inter fw_500 fs_26">Temple</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column">
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/tower.png" alt="Tower">
+                    <p class="ff_inter fw_500 fs_26">Tower</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column">
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/pyramid.png" alt="Pyramid">
+                    <p class="ff_inter fw_500 fs_26">Pyramid</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2-section -->
+    <div class="bg_khakhi">
+        <div class="container pt-5 pb-5">
+            <div class="text-center">
+                <p class="fw_600 fs_56 ff_inter mb-0">Top Destinations</p>
+                <p class="ff_inter fs_16 fw_400 ">Sost Brilliant reasons Entrada should be your one-stop-shop!
+                </p>
+            </div>
+            <div class="d-flex flex-row justify-content-center text-decoration-none">
+                <a class="me-3 fw_400 fs_14 ff_poppins style_london  hover_london black" href="#">London</a>
+                <a class="me-3 fw_400 fs_14 ff_poppins style_london black hover_london" href="#">Bangkok</a>
+                <a class="me-3 fw_400 fs_14 ff_poppins style_london black hover_london" href="#">England</a>
+                <a class="me-3 fw_400 fs_14 ff_poppins style_london black hover_london" href="#">Singapore</a>
+                <a class="me-3 fw_400 fs_14 ff_poppins style_london black hover_london" href="#">Italy</a>
+            </div>
+            <div class="d_grid d_templete pt-5">
+                <div class="img_1 hoverimg position-relative">
+                    <a class="fw_500 fs_14 ff_inter style_35 black position-absolute ms-4 show  opacity-0"
+                        href="#">3.5</a>
+                    <div class="position-absolute bottom-0 ps-4 opacity-0 show">
+                        <p class="fw_600 fs_20 white ff_inter mb-0">Vientam</p>
+                        <p class="fw_400 fs_14 ff_inter white">Worefall </p>
+                    </div>
+                    <img class="w-100 h-100" src="./assets/image/svg/top_img_1.png" alt="">
+                </div>
+                <div class="img_2 hoverimg position-relative">
+                    <a class="fw_500 fs_14 ff_inter style_35 black position-absolute ms-4 show  opacity-0"
+                        href="#">3.5</a>
+                    <div class="position-absolute bottom-0 ps-4 opacity-0 show">
+                        <p class="fw_600 fs_20 white ff_inter mb-0">Vientam</p>
+                        <p class="fw_400 fs_14 ff_inter white">Worefall </p>
+                    </div>
+                    <img class="w-100 h-100" src="./assets/image/svg/top_img_2.png" alt="">
+                </div>
+                <div class="img_3 hoverimg position-relative">
+                    <a class="fw_500 fs_14 ff_inter style_35 black position-absolute ms-4 show  opacity-0"
+                        href="#">3.5</a>
+                    <div class="position-absolute bottom-0 ps-4 opacity-0 show">
+                        <p class="fw_600 fs_20 white ff_inter mb-0">Vientam</p>
+                        <p class="fw_400 fs_14 ff_inter white">Worefall </p>
+                    </div>
+                    <img class="w-100 h-100" src="./assets/image/svg/topimg3.png" alt="">
+                </div>
+                <div class="img_4 hoverimg position-relative">
+                    <a class="fw_500 fs_14 ff_inter style_35 black position-absolute ms-4 show  opacity-0"
+                        href="#">3.5</a>
+                    <div class="position-absolute bottom-0 ps-4 opacity-0 show">
+                        <p class="fw_600 fs_20 white ff_inter mb-0">Vientam</p>
+                        <p class="fw_400 fs_14 ff_inter white">Worefall </p>
+                    </div>
+                    <img class="w-100 h-100" src="./assets/image/svg/top_img4.png" alt="">
+                </div>
+                <div class="img_5 hoverimg position-relative">
+                    <a class="fw_500 fs_14 ff_inter style_35 black position-absolute ms-4 show  opacity-0"
+                        href="#">3.5</a>
+                    <div class="position-absolute bottom-0 ps-4 opacity-0 show">
+                        <p class="fw_600 fs_20 white ff_inter mb-0">Vientam</p>
+                        <p class="fw_400 fs_14 ff_inter white">Worefall </p>
+                    </div>
+                    <img class="w-100 h-100" src="./assets/image/svg/top_img_5.png" alt="">
+                </div>
+                <div class="img_6 hoverimg position-relative">
+                    <a class="fw_500 fs_14 ff_inter style_35 black position-absolute ms-4 show  opacity-0"
+                        href="#">3.5</a>
+                    <div class="position-absolute bottom-0 ps-4 opacity-0 show">
+                        <p class="fw_600 fs_20 white ff_inter mb-0">Vientam</p>
+                        <p class="fw_400 fs_14 ff_inter white">Worefall </p>
+                    </div>
+                    <img class="w-100 h-100" src="./assets/image/svg/top_img_6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!--L QUERRY MIN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--SLICK MIN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.slick_slider').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            arrow: true,
+            nextArrow: ".next",
+            prevArrow: ".back",
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+
+            ]
+        });
+    </script>
 </body>
+
 </html>
