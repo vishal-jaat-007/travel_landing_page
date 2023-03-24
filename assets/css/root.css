@@ -185,3 +185,92 @@
 .fw_400 {
     font-weight: 400;
 }
+
+@media (max-width:1200px) {
+
+    /* root */
+    :root {
+        /* font_size */
+        --fs-84: 70px;
+        --fs-56: 40px;
+        --fs-46: 40px;
+        --fs-40: 40px;
+        --fs-30: 30px;
+        --fs-28: 28px;
+        --fs-26: 20px;
+        --fs-24: 24px;
+        --fs-21: 18px;
+        --fs-20: 20px;
+        --fs-19: 19px;
+        --fs-18: 18px;
+        --fs-16: 16px;
+        --fs-14: 14px;
+        --fs-12: 12px;
+    }
+}
+@media (max-width:992px) {
+
+    /* root */
+    :root {
+        /* font_size */
+        --fs-84: 60px;
+        --fs-56: 49px;
+        --fs-46: 38px;
+        --fs-40: 40px;
+        --fs-30: 30px;
+        --fs-28: 28px;
+        --fs-26: 18px;
+        --fs-24: 24px;
+        --fs-21: 17px;
+        --fs-20: 20px;
+        --fs-19: 19px;
+        --fs-18: 18px;
+        --fs-16: 16px;
+        --fs-14: 14px;
+        --fs-12: 12px;
+    }
+}
+@media (max-width:768px) {
+
+    /* root */
+    :root {
+        /* font_size */
+        --fs-84: 45px;
+        --fs-56: 45px;
+        --fs-46: 36px;
+        --fs-40: 40px;
+        --fs-30: 30px;
+        --fs-28: 28px;
+        --fs-26: 16px;
+        --fs-24: 24px;
+        --fs-21: 15px;
+        --fs-20: 20px;
+        --fs-19: 19px;
+        --fs-18: 18px;
+        --fs-16: 16px;
+        --fs-14: 14px;
+        --fs-12: 12px;
+    }
+}
+@media (max-width:576px) {
+
+    /* root */
+    :root {
+        /* font_size */
+        --fs-84: 35px;
+        --fs-56: 35px;
+        --fs-46: 34px;
+        --fs-40: 40px;
+        --fs-30: 30px;
+        --fs-28: 28px;
+        --fs-26: 14px;
+        --fs-24: 24px;
+        --fs-21: 14px;
+        --fs-20: 20px;
+        --fs-19: 19px;
+        --fs-18: 18px;
+        --fs-16: 16px;
+        --fs-14: 14px;
+        --fs-12: 12px;
+    }
+}
