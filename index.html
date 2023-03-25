@@ -37,19 +37,19 @@
                     </div>
 
                     <ul class="d-flex mb-0" id="show">
-                        <li class="ps-lg-5"><a href="#"
+                        <li class="ps-lg-5"><a href="#Home"
                                 class="fw_400 fs_16 navy ff_poppins  text_line_efect position-relative  d-inline-block clr_white_hover">Home</a>
                         </li>
-                        <li class="ms-lg-5 pt-5 pt-lg-0 "><a href="#"
+                        <li class="ms-lg-5 pt-5 pt-lg-0 "><a href="#About"
                                 class="fw_400 fs_16 navy ff_poppins  d-inline-block text_line_efect position-relative clr_white_hover">About
                                 us</a></li>
-                        <li class="ms-lg-5 pt-5 pt-lg-0 "><a href="#"
+                        <li class="ms-lg-5 pt-5 pt-lg-0 "><a href="#Destinations"
                                 class="fw_400 fs_16 navy ff_poppins  d-inline-block text_line_efect position-relative clr_white_hover">Destinations</a>
                         </li>
-                        <li class="ms-lg-5 pt-5 pt-lg-0 "><a href="#"
+                        <li class="ms-lg-5 pt-5 pt-lg-0 "><a href="#Tours"
                                 class="fw_400 fs_16 navy ff_poppins  d-inline-block text_line_efect position-relative clr_white_hover">Tours</a>
                         </li>
-                        <li class="ms-lg-5 pt-5 pt-lg-0 "><a href="#"
+                        <li class="ms-lg-5 pt-5 pt-lg-0 "><a href="#Blog"
                                 class="fw_400 fs_16 navy ff_poppins  d-inline-block text_line_efect position-relative clr_white_hover">Blog</a>
                         </li>
                         <li class="d-block d-lg-none mt-5 mt-lg-0 d-inline-block">
@@ -72,7 +72,7 @@
                     <span class="nav_3_line"></span>
                 </span>
                 <div class="d-none d-lg-block">
-                    <a href="#" class="fw_500 fs_16 ff_poppins orange nav_btn align-items-center d-flex">Book Now
+                    <a href="#BookNow" class="fw_500 fs_16 ff_poppins orange nav_btn align-items-center d-flex">Book Now
                         <span class="ps-2 scale"><svg width="16" height="15" viewBox="0 0 16 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -84,8 +84,11 @@
             </div>
         </nav>
     </header>
+    <!-- backToTop -->
+    <button onclick="backToTop()" class="backToTop bg_lightyellow2 border-0 rounded-circle" id="topbtn"><img
+            src="/assets/image/svg/top.png" alt=""></button>
     <!-- .........................................hero_section................................................ -->
-    <div class="container">
+    <div id="Home" class="container">
         <div class="row py-2 align-items-center flex-column-reverse flex-lg-row ">
             <div class="col-lg-6 col-12 text-center text-lg-start">
                 <p class="fw_700 ff_sen black fs_84 line_height_1 mt-5 mt-lg-0 d-inline-block ">Discover the Best Lovely
@@ -96,14 +99,14 @@
                     class="d-flex flex-column flex-sm-row flex align-items-center justify-content-between white_box   p-4 mt-5 d-inline-block">
                     <div>
                         <p class="fw_500 black fs_18 ff_inter mb-0">Where</p>
-                        <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-evenly align-items-center">
                             <p class="fw_400 lightgrey ff_inter fs_12 mb-0 mt-1">Center Point, Lo...</p>
 
                             <span><a href="#"><img class="ps-4 scale_" src="/assets/image/svg/location.png" alt=""></a>
                             </span>
                         </div>
                     </div>
-                    <hr class="hr d-none d-sm-block">
+                    <hr class="hr d-none d-sm-block ">
                     <div class="mt-3 mt-sm-0">
                         <p class="fw_500 black fs_18 ff_inter mb-0">Date</p>
                         <div class="d-flex justify-content-between align-items-center">
@@ -120,7 +123,140 @@
                 </div>
             </div>
             <div class="col-lg-6  col-12 text-end">
-                <img class=" w-100 img" src="/assets/image/svg/hero_img.png" alt="hero_img">
+                <img class=" w-100 img 
+                " src="/assets/image/svg/hero_img.png" alt="hero_img">
+            </div>
+        </div>
+    </div>
+    <!-- slider -->
+    <div id="About" class="bg_khakhi ">
+        <div class="container pt-4 pb-4 my-5">
+            <div>
+                <div class="d-flex justify-content-end justify-content-between align-items-center">
+                    <p class="fw_600 fs_56 ff_inter ">Categories</p>
+                    <div class="d-flex justify-content-end ">
+                        <button class="back slider_btn d-none d-md-block" type="button">
+                            <span class="fs_2xl fw_700 slider_btn_arrow"><span class=""><svg width="8" height="14"
+                                        viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 13L1 7L7 1" stroke="#2D3134" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span>
+                            </span>
+                        </button>
+                        <button class="next slider_btn ms-3 d-none d-md-block " type="button">
+                            <span class="fs_2xl fw_700 "><span class="black"><svg width="8" height="14"
+                                        viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 13L7 7L1 1" stroke="#2D3134" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <p class="ff_inter fs_16 fw_400 min_w_370 grey">Here are lots of interesting destinations to visit, but
+                    don’t
+                    be confused—they’re already grouped by
+                    category.</p>
+            </div>
+
+            <div class="slick_slider pt-5">
+                <div class=" text-center align-items-center d-flex flex-column position-relative hoverimg">
+                    <div class="position-absolute  align-items-center pt_80 ">
+                        <a href="#" class="fw_600 fs_20 ff_inter mb-0  white  opacity_0 transition show">Visite
+                        </a>
+                    </div>
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/beach.png" alt="beach">
+                    <p class="ff_inter fw_500 fs_26 pt-3">Beach</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column position-relative hoverimg">
+                    <div class="position-absolute  align-items-center pt_80 ">
+                        <a href="#" class="fw_600 fs_20 ff_inter mb-0  white opacity_0 transition show">Visite
+                        </a>
+                    </div>
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/desert.png" alt="Desert">
+                    <p class="ff_inter fw_500 fs_26 pt-3">Desert</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column position-relative hoverimg">
+                    <div class="position-absolute  align-items-center pt_80 ">
+                        <a href="#" class="fw_600 fs_20 ff_inter mb-0  white opacity_0 transition show">Visite
+                        </a>
+                    </div>
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/mountaion.png" alt="Mountain">
+                    <p class="ff_inter fw_500 fs_26 pt-3">Mountain</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column position-relative hoverimg">
+                    <div class="position-absolute  align-items-center pt_80 ">
+                        <a href="#" class="fw_600 fs_20 ff_inter mb-0  white opacity_0 transition show">Visite
+                        </a>
+                    </div>
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/temple.png" alt="Temple">
+                    <p class="ff_inter fw_500 fs_26 pt-3">Temple</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column position-relative hoverimg">
+                    <div class="position-absolute  align-items-center pt_80 ">
+                        <a href="#" class="fw_600 fs_20 ff_inter mb-0  white opacity_0 transition show">Visite
+                        </a>
+                    </div>
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/tower.png" alt="Tower">
+                    <p class="ff_inter fw_500 fs_26 pt-3">Tower</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column position-relative hoverimg">
+                    <div class="position-absolute  align-items-center pt_80 ">
+                        <a href="#" class="fw_600 fs_20 ff_inter mb-0  white opacity_0 transition show">Visite
+                        </a>
+                    </div>
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/pyramid.png" alt="Pyramid">
+                    <p class="ff_inter fw_500 fs_26 pt-3">Pyramid</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column position-relative hoverimg">
+                    <div class="position-absolute  align-items-center pt_80 ">
+                        <a href="#" class="fw_600 fs_20 ff_inter mb-0  white opacity_0 transition show">Visite
+                        </a>
+                    </div>
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/beach.png" alt="beach">
+                    <p class="ff_inter fw_500 fs_26 pt-3">Beach</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column position-relative hoverimg">
+                    <div class="position-absolute  align-items-center pt_80 ">
+                        <a href="#" class="fw_600 fs_20 ff_inter mb-0  white opacity_0 transition show">Visite
+                        </a>
+                    </div>
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/desert.png" alt="Desert">
+                    <p class="ff_inter fw_500 fs_26 pt-3">Desert</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column position-relative hoverimg">
+                    <div class="position-absolute  align-items-center pt_80 ">
+                        <a href="#" class="fw_600 fs_20 ff_inter mb-0  white opacity_0 transition show">Visite
+                        </a>
+                    </div>
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/mountaion.png" alt="Mountain">
+                    <p class="ff_inter fw_500 fs_26 pt-3">Mountain</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column position-relative hoverimg">
+                    <div class="position-absolute  align-items-center pt_80 ">
+                        <a href="#" class="fw_600 fs_20 ff_inter mb-0  white opacity_0 transition show">Visite
+                        </a>
+                    </div>
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/temple.png" alt="Temple">
+                    <p class="ff_inter fw_500 fs_26 pt-3">Temple</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column position-relative hoverimg">
+                    <div class="position-absolute  align-items-center pt_80 ">
+                        <a href="#" class="fw_600 fs_20 ff_inter mb-0  white opacity_0 transition show">Visite
+                        </a>
+                    </div>
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/tower.png" alt="Tower">
+                    <p class="ff_inter fw_500 fs_26 pt-3">Tower</p>
+                </div>
+                <div class="text-center align-items-center d-flex flex-column position-relative hoverimg">
+                    <div class="position-absolute  align-items-center pt_80 ">
+                        <a href="#" class="fw_600 fs_20 ff_inter mb-0  white opacity_0 transition show">Visite
+                        </a>
+                    </div>
+                    <img class="w-100 slider_img_wdth" src="./assets/image/svg/pyramid.png" alt="Pyramid">
+                    <p class="ff_inter fw_500 fs_26 pt-3">Pyramid</p>
+                </div>
             </div>
         </div>
     </div>
@@ -147,10 +283,10 @@
                     </div>
                 </div>
 
-                <img class="img-fluid" src="/assets/image/svg/camera_men.png" alt="camera_men">
+                <img class=" w_100 img-fluid" src="/assets/image/svg/camera_men.png" alt="camera_men">
             </div>
             <div class="col-12 col-lg-6 text-center text-lg-start">
-                <p class="fw_600 fs_20 orange ff_inter mb-0">Our Experience</p>
+                <p class="fw_600 fs_20 orange ff_inter mb-0 mt-5">Our Experience</p>
                 <p class="fw_600 ff_inter black fs_56 ">Our Stories Have Adventures</p>
                 <p class="fw_400 ff_inter grey fs_16 max_width_467_xl">We are experienced in bringing adventures to stay
                     their journey, with all outdoor destinations in the
@@ -183,15 +319,16 @@
             </div>
         </div>
     </div>
-    <!-- ...................4th_section................................. -->
-    <div class="container">
+    <!-- ...................slider_section................................. -->
+    <div class="container my-5 mt-5">
         <div class="d-flex justify-content-between align-items-center">
             <div>
-                <p class="fw_600 ff_inter fs_56 black  max_width_400_xl text-center text-sm-start">Find Popular
+                <p id="Destinations" class="fw_600 ff_inter fs_56 black  max_width_400_xl text-center text-sm-start ">
+                    Find Popular
                     Destination</p>
             </div>
             <div class="d-flex justify-content-end ">
-                <button class="back slider_btn d-none d-md-block" type="button">
+                <button class="back_ slider_btn d-none d-md-block" type="button">
                     <span class="fs_2xl fw_700 slider_btn_arrow"><span class=""><svg width="8" height="14"
                                 viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 13L1 7L7 1" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round"
@@ -199,7 +336,7 @@
                             </svg></span>
                     </span>
                 </button>
-                <button class="next slider_btn ms-3 d-none d-md-block " type="button">
+                <button class="next_ slider_btn ms-3 d-none d-md-block " type="button">
                     <span class="fs_2xl fw_700 "><span class="black"><svg width="8" height="14" viewBox="0 0 8 14"
                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 13L7 7L1 1" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round"
@@ -280,10 +417,266 @@
             </div>
         </div>
     </div>
+    <!-- 2-section -->
+    <div class="bg_khakhi">
+        <div class="container pt-5 pb-5">
+            <div class="text-center">
+                <p class="fw_600 fs_56 ff_inter mb-0">Top Destinations</p>
+                <p class="ff_inter fs_16 fw_400 grey">Sost Brilliant reasons Entrada should be your one-stop-shop!
+                </p>
+            </div>
+            <div id="Tours" class="d-flex justify-content-center text-decoration-none slick_slider_3 text-center">
+                <a class="me-3 fw_400 fs_14 ff_poppins style_london  hover_london black" href="#">London</a>
+                <a class="me-3 fw_400 fs_14 ff_poppins style_london black hover_london" href="#">Bangkok</a>
+                <a class="me-3 fw_400 fs_14 ff_poppins style_london black hover_london" href="#">England</a>
+                <a class="me-3 fw_400 fs_14 ff_poppins style_london  black hover_london" href="#">Singapore</a>
+                <a class="me-3 fw_400 fs_14 ff_poppins style_london black hover_london" href="#">Italy</a>
+            </div>
+            <div class="d_grid d_templete pt-5">
+                <div class="img_1 hoverimg position-relative">
+                    <a class="fw_500 fs_14 ff_inter style_35 black position-absolute ms-4 show  opacity_0"
+                        href="#">3.5</a>
+                    <div class="position-absolute bottom-0 ps-4 opacity_0 transition show">
+                        <p class="fw_600 fs_20 white ff_inter mb-0">Vientam</p>
+                        <p class="fw_400 fs_14 ff_inter white">Worefall </p>
+                    </div>
+                    <img class="w-100 h-100" src="./assets/image/svg/top_img_1.png" alt="">
+                </div>
+                <div class="img_2 hoverimg position-relative">
+                    <a class="fw_500 fs_14 ff_inter style_35 black position-absolute ms-4 show  opacity_0"
+                        href="#">3.5</a>
+                    <div class="position-absolute bottom-0 ps-4 opacity_0 transition show">
+                        <p class="fw_600 fs_20 white ff_inter mb-0">Vientam</p>
+                        <p class="fw_400 fs_14 ff_inter white">Worefall </p>
+                    </div>
+                    <img class="w-100 h-100" src="./assets/image/svg/top_img_2.png" alt="">
+                </div>
+                <div class="img_3 hoverimg position-relative">
+                    <a class="fw_500 fs_14 ff_inter style_35 black position-absolute ms-4 show  opacity_0"
+                        href="#">3.5</a>
+                    <div class="position-absolute bottom-0 ps-4 opacity_0 transition show">
+                        <p class="fw_600 fs_20 white ff_inter mb-0">Vientam</p>
+                        <p class="fw_400 fs_14 ff_inter white">Worefall </p>
+                    </div>
+                    <img class="w-100 h-100" src="./assets/image/svg/topimg3.png" alt="">
+                </div>
+                <div class="img_4 hoverimg position-relative">
+                    <a class="fw_500 fs_14 ff_inter style_35 black position-absolute ms-4 show  opacity_0"
+                        href="#">3.5</a>
+                    <div class="position-absolute bottom-0 ps-4 opacity_0 transition show">
+                        <p class="fw_600 fs_20 white ff_inter mb-0">Vientam</p>
+                        <p class="fw_400 fs_14 ff_inter white">Worefall </p>
+                    </div>
+                    <img class="w-100 h-100" src="./assets/image/svg/top_img4.png" alt="">
+                </div>
+                <div class="img_5 hoverimg position-relative">
+                    <a class="fw_500 fs_14 ff_inter style_35 black position-absolute ms-4 show  opacity_0"
+                        href="#">3.5</a>
+                    <div class="position-absolute bottom-0 ps-4 opacity_0 transition show">
+                        <p class="fw_600 fs_20 white ff_inter mb-0">Vientam</p>
+                        <p class="fw_400 fs_14 ff_inter white">Worefall </p>
+                    </div>
+                    <img class="w-100 h-100" src="./assets/image/svg/top_img_5.png" alt="">
+                </div>
+                <div class="img_6 hoverimg position-relative">
+                    <a class="fw_500 fs_14 ff_inter style_35 black position-absolute ms-4 show  opacity_0"
+                        href="#">3.5</a>
+                    <div class="position-absolute bottom-0 ps-4 opacity_0 transition show">
+                        <p class="fw_600 fs_20 white ff_inter mb-0">Vientam</p>
+                        <p class="fw_400 fs_14 ff_inter white">Worefall </p>
+                    </div>
+                    <img class="w-100 h-100" src="./assets/image/svg/top_img_6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section-3 -->
+    <div class="bg_khakhi">
+        <div class="container pt-5 pb-5">
+            <div class="row align-items-center pt-5">
+                <div class="col-lg-6 justify-content-center  d-flex">
+                    <img class="img-fluid imghover" src="./assets/image/svg/customer_cameraman.png" alt="photographer">
+                </div>
+                <div class="col-lg-6 pt-5 pt-lg-0">
+                    <div class="hr_1"></div>
+                    <p class="fw_600 fs_56 ff_inter min_w_467 line_h_66 pt-2">A customer said about us:</p>
 
-
+                    <div class="slick_slider_2">
+                        <div class="bg-white p-3 border_14">
+                            <p class="fw_400 fs_18 ff_inter grey min_w_473">Salty helped me a lot in finding the best
+                                place
+                                for
+                                our first outdoor adventure trip. They
+                                responded very quickly and
+                                gave me a detailed account of the place—its history, as well as its best features.</p>
+                            <img src="./assets/image/svg/camera_5star.png" alt="star">
+                            <div class="pt-3 align-items-center justify-content-between d-flex">
+                                <div>
+                                    <p class="fw_500 fs_20 ff_inter mb-0">Andrew Sarma</p>
+                                    <p class="fw_400 fs_12 ff_inter grey">Enterpreneur</p>
+                                </div>
+                                <div class="d-flex justify-content-end ">
+                                    <button class="back_2 slider_btn_2 " type="button">
+                                        <span class="fs_2xl fw_700 slider_btn_arrow"><span class=""><svg width="8"
+                                                    height="14" viewBox="0 0 8 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 13L1 7L7 1" stroke="#2D3134" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg></span>
+                                        </span>
+                                    </button>
+                                    <button class="next_2 slider_btn_2 ms-3 " type="button">
+                                        <span class="fs_2xl fw_700 "><span class="black"><svg width="8" height="14"
+                                                    viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 13L7 7L1 1" stroke="#2D3134" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg></span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white p-3 border_14">
+                            <p class="fw_400 fs_18 ff_inter grey min_w_473">Salty helped me a lot in finding the best
+                                place
+                                for
+                                our first outdoor adventure trip. They
+                                responded very quickly and
+                                gave me a detailed account of the place—its history, as well as its best features.</p>
+                            <img src="./assets/image/svg/camera_5star.png" alt="star">
+                            <div class="pt-3 align-items-center justify-content-between d-flex">
+                                <div>
+                                    <p class="fw_500 fs_20 ff_inter mb-0">Andrew Sarma</p>
+                                    <p class="fw_400 fs_12 ff_inter grey">Enterpreneur</p>
+                                </div>
+                                <div class="d-flex justify-content-end ">
+                                    <button class="back_2 slider_btn_2 " type="button">
+                                        <span class="fs_2xl fw_700 slider_btn_arrow"><span class=""><svg width="8"
+                                                    height="14" viewBox="0 0 8 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 13L1 7L7 1" stroke="#2D3134" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg></span>
+                                        </span>
+                                    </button>
+                                    <button class="next_2 slider_btn_2 ms-3 " type="button">
+                                        <span class="fs_2xl fw_700 "><span class="black"><svg width="8" height="14"
+                                                    viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 13L7 7L1 1" stroke="#2D3134" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg></span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white p-3 border_14">
+                            <p class="fw_400 fs_18 ff_inter grey min_w_473">Salty helped me a lot in finding the best
+                                place
+                                for
+                                our first outdoor adventure trip. They
+                                responded very quickly and
+                                gave me a detailed account of the place—its history, as well as its best features.</p>
+                            <img src="./assets/image/svg/camera_5star.png" alt="star">
+                            <div class="pt-3 align-items-center justify-content-between d-flex">
+                                <div>
+                                    <p class="fw_500 fs_20 ff_inter mb-0">Andrew Sarma</p>
+                                    <p class="fw_400 fs_12 ff_inter grey">Enterpreneur</p>
+                                </div>
+                                <div class="d-flex justify-content-end ">
+                                    <button class="back_2 slider_btn_2" type="button">
+                                        <span class="fs_2xl fw_700 slider_btn_arrow"><span class=""><svg width="8"
+                                                    height="14" viewBox="0 0 8 14" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 13L1 7L7 1" stroke="#2D3134" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg></span>
+                                        </span>
+                                    </button>
+                                    <button class="next_2 slider_btn_2 ms-3" type="button">
+                                        <span class="fs_2xl fw_700 "><span class="black"><svg width="8" height="14"
+                                                    viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 13L7 7L1 1" stroke="#2D3134" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg></span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section-4 -->
+    <div id="BookNow" class="bg_khakhi mt-5 mt py-5">
+        <div class="container pb-5 ">
+            <div class="bg_img pt-5 pb-5">
+                <div class="text-center d-flex flex-column align-items-center">
+                    <p class="fw_600 fs_40 ff_inter mb-0">Sign up to our newsletter</p>
+                    <p class="fw_600 fs_16 ff_inter min_w_415 clr_black ">Reciev latest news, update, and many other
+                        things every week.</p>
+                    <div class="bg-white white_box_w border_14 d-flex justify-content-between align-items-center mt-4">
+                        <input type="text" placeholder="Enter Your email address"
+                            class="ff_inter fw_400 fs_14 style_input ps-4 grey">
+                        <div class="pt-2">
+                            <a href="#"> <span class="scale"><svg width="68" height="68" viewBox="0 0 68 68" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g filter="url(#filter0_d_0_36)">
+                                            <path
+                                                d="M14 21C14 14.3726 19.3726 9 26 9H42C48.6274 9 54 14.3726 54 21V37C54 43.6274 48.6274 49 42 49H26C19.3726 49 14 43.6274 14 37V21Z"
+                                                fill="#F66F4D" />
+                                        </g>
+                                        <g filter="url(#filter1_d_0_36)">
+                                            <path
+                                                d="M26.082 29.8821L30.0859 31.8812L39.3675 23.5213L32.0878 32.9716V37.3333L34.8177 33.8803L39.3675 35.6977L41.9154 20.25L26.082 29.8821Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <filter id="filter0_d_0_36" x="0" y="0" width="68" height="68"
+                                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                    result="hardAlpha" />
+                                                <feOffset dy="5" />
+                                                <feGaussianBlur stdDeviation="7" />
+                                                <feColorMatrix type="matrix"
+                                                    values="0 0 0 0 0.966949 0 0 0 0 0.405339 0 0 0 0 0.263896 0 0 0 0.25 0" />
+                                                <feBlend mode="normal" in2="BackgroundImageFix"
+                                                    result="effect1_dropShadow_0_36" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_36"
+                                                    result="shape" />
+                                            </filter>
+                                            <filter id="filter1_d_0_36" x="13.082" y="12.25" width="41.8333"
+                                                height="43.0833" filterUnits="userSpaceOnUse"
+                                                color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                    result="hardAlpha" />
+                                                <feOffset dy="5" />
+                                                <feGaussianBlur stdDeviation="6.5" />
+                                                <feColorMatrix type="matrix"
+                                                    values="0 0 0 0 0.871115 0 0 0 0 0.175254 0 0 0 0 0 0 0 0 0.7 0" />
+                                                <feBlend mode="normal" in2="BackgroundImageFix"
+                                                    result="effect1_dropShadow_0_36" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_36"
+                                                    result="shape" />
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- .............................fotter......................................... -->
-    <div class="container">
+    <div id="Blog" class="container py-5 mt-5">
         <div class="row mb-5 pb-5">
             <div class="col-12 col-lg-4 ">
                 <div>
@@ -423,7 +816,6 @@
 </body>
 <!-- bottstrap_link  -->
 
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
     crossorigin="anonymous"></script>
@@ -454,8 +846,8 @@
         arrows: true,
         centerMode: true,
         centerpadding: "80px",
-        nextArrow: ".next",
-        prevArrow: ".back",
+        nextArrow: ".next_",
+        prevArrow: ".back_",
         responsive: [
             {
                 breakpoint: 1300,
@@ -489,6 +881,140 @@
             }
         ]
     });
+
+</script>
+<script>
+    $('.slick_slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        arrow: true,
+        nextArrow: ".next",
+        prevArrow: ".back",
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+
+        ]
+    });
+    $('.slick_slider_2').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrow: true,
+        nextArrow: ".next_2",
+        prevArrow: ".back_2",
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            }
+        ]
+    });
+    $('.slick_slider_3').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        arrow: false,
+        cssEase: 'linear',
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 3000,
+        nextArrow: false,
+        prevArrow: false,
+
+
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 428,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            }
+
+        ]
+    });
+</script>
+<script>
+    const topbtn = document.getElementById('topbtn');
+
+
+    window.onscroll = function () { topscroll() };
+
+    function topscroll() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            topbtn.style.display = "block";
+        }
+        else {
+            topbtn.style.display = "none";
+        }
+    }
+
+
+    function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 
 </script>
 

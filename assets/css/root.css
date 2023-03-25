@@ -43,7 +43,7 @@
     --color-navy: #2E476B;
     --color-orange: #F66F4D;
     --color-khakhi: #FAF8ED;
-    --color-grey: #5B5F62;
+    --color-grey: #5B5F62 ;
     --color-lightgrey: #9498A4;
     --color-lightwhite: #EAEAEB;
     --color-white: #FFFFFF;
@@ -71,7 +71,7 @@
 }
 
 .grey {
-    color: var(--color-grey);
+    color: var(--color-grey) !important;
 }
 
 .lightgrey {
@@ -257,7 +257,7 @@
     :root {
         /* font_size */
         --fs-84: 60px;
-        --fs-56: 49px;
+        --fs-56: 35px;
         --fs-46: 38px;
         --fs-40: 40px;
         --fs-30: 30px;
@@ -305,17 +305,17 @@
         --fs-84: 35px;
         --fs-56: 35px;
         --fs-46: 34px;
-        --fs-40: 40px;
-        --fs-30: 30px;
-        --fs-28: 28px;
+        --fs-40: 35px;
+        --fs-30: 25px;
+        --fs-28: 22px;
         --fs-26: 14px;
-        --fs-24: 20px;
+        --fs-24: 18px;
         --fs-21: 14px;
-        --fs-20: 20px;
-        --fs-19: 19px;
-        --fs-18: 18px;
-        --fs-16: 16px;
-        --fs-14: 14px;
+        --fs-20: 16px;
+        --fs-19: 15px;
+        --fs-18: 15px;
+        --fs-16: 12px;
+        --fs-14: 12px;
         --fs-12: 12px;
     }
 }
